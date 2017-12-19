@@ -1,9 +1,8 @@
 function some(){
 	var a= $("#screen").val();
-	alert(a);
-	 var min=document.getElementById("min").innerHTML= parseInt(a)*60 + " minutes ";
-	 var sec=document.getElementById("sec").innerHTML=parseInt(a)*3600 + " seconds";
-	 var msec=document.getElementById("msec").innerHTML=parseInt(a)*6000 + " millseconds";
+	 $("#min").html(parseInt(a)*60 + " minutes ");
+	 $("#sec").html(parseInt(a)*3600 + " seconds");
+	 $("#msec").html(parseInt(a)*6000 + " millseconds");
 
 }
 function meter()
