@@ -1,5 +1,6 @@
 function some(){
-	var a=document.getElementById("screen").value;
+	var a= $("#screen").val();
+	alert(a);
 	 var min=document.getElementById("min").innerHTML= parseInt(a)*60 + " minutes ";
 	 var sec=document.getElementById("sec").innerHTML=parseInt(a)*3600 + " seconds";
 	 var msec=document.getElementById("msec").innerHTML=parseInt(a)*6000 + " millseconds";

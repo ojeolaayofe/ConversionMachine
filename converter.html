@@ -6,32 +6,37 @@
 	<meta name="viewport" content="width=device-width", initial-scale=1>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="converter.css">
-	<script type="text/javascript" src="Bootstrap/js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="jquery/jquery-3.1.1.js"></script>
 	<script type="text/javascript" src="Bootstrap/js/bootstrap.js"></script>
 </head>
 <body>
 <form>
-<h4><center> A SIMPLE CONVERSION MACHINE</center></h4>
+
+<h4>A SIMPLE CONVERSION MACHINE</h4>
 <p>HOURS:</p><input oninput="some()"  id="screen" type="text" name="">
 <p>Minutes : <span id="min"></span></p>
 <p>SECONDS: <span id="sec"></span> </p>
 <p>MILLSECONDS: <span id="msec"></span></p>
+
 <h4>CONVERSIONS OF METERS</h4>
 <p>METERS :</p><input id="mete" oninput="meter()" type="text">
 <p>Centimeter :<span id="cent"></span></p>
 <p >Millimeter : <span id="mill"></span></p>
 <p >Kilometer : <span id="kilo"></span></p>
+
 <h4>CONVERSION OF YEARS</h4>
 <p>YEAR</p><input oninput="year()" id="yy" type="text" name="">
 <p>Months: <span id="mon"></span></p>
 <p>Weeks: <span id="wee"></span></p>
 <p>Days: <span id="days"></span></p>
+
 <h4>CONVERSION OF TEMPERATURE</h4>
 <p>Faherehit :<input oninput="frah()" id="hit" type="text" name=""></p>
 <p>Celcius :<span id="cel"></span></p>
 <p>Kelvin : <span id="kel"></span></p>
 <p>Degree :<span id="deg"></span></p>
 </form>
+
 <script type="text/javascript" src="converter.js"></script>
 </body>
 </html>
