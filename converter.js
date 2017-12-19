@@ -14,10 +14,10 @@ function meter()
 }
 function year()
 {
-	var a = document.getElementById("yy").value;
-	document.getElementById("mon").innerHTML=parseInt(a)*12 + " months";
-	document.getElementById("wee").innerHTML=parseInt(a)*52 + " weeks";
-	document.getElementById("days").innerHTML=parseInt(a)*360 + " days";
+	var a = $("#yy").val();
+	$("#mon").html(a*12 + " months");
+	$("#wee").html(a*52 + " weeks");
+	$("#days").html(a*360 + " days");
 }
 function frah()
 {
