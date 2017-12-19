@@ -21,8 +21,8 @@ function year()
 }
 function frah()
 {
-	var a=document.getElementById("hit").value;
-	document.getElementById("cel").innerHTML=0.556*(parseInt(a)-32) + " C";
-	document.getElementById("kel").innerHTML=0.556*(parseInt(a)-32)+273 + " K";
-	document.getElementById("deg").innerHTML=((parseInt(a)-32)/1.8)*9500;
+	var a= $("#hit").val();
+	$("#cel").html(0.556*(a-32) + " C");
+	$("#kel").html(0.556*(a-32)+273 + " K");
+	$("#deg").html(((a-32)/1.8)*9500);
 }
