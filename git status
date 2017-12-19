@@ -1,0 +1,47 @@
+[33mcommit e030bb85d1c86aded7f835a7a49cc6d0a09fd903[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Bolaji Adewale <jamesadewale3@gmail.com>
+Date:   Tue Dec 19 19:10:12 2017 +0100
+
+    I optimised the year function
+
+[33mcommit 91b8b6341d81e0478cf63d10417875cc12c2f42a[m[33m ([m[1;32myear[m[33m)[m
+Author: Bolaji Adewale <jamesadewale3@gmail.com>
+Date:   Tue Dec 19 19:04:38 2017 +0100
+
+    fixed jQuery
+
+[33mcommit 4849fb27f09b9eb22f90f621957224a31be59aac[m[33m ([m[1;32mmeter[m[33m)[m
+Author: Bolaji Adewale <jamesadewale3@gmail.com>
+Date:   Tue Dec 19 19:01:39 2017 +0100
+
+    I fixed the NaN error and fixed the meter function for JQuery
+
+[33mcommit a1b182c22a2cb463d7c0097b2bf087fb4d5c3160[m
+Author: Bolaji Adewale <jamesadewale3@gmail.com>
+Date:   Tue Dec 19 18:54:58 2017 +0100
+
+    I optimised the some function with JQuery
+
+[33mcommit 7a66a04581a56c69abaee1b4fbd66faf5e4a7793[m
+Author: Bolaji Adewale <jamesadewale3@gmail.com>
+Date:   Tue Dec 19 18:51:01 2017 +0100
+
+    I fixed the jQuery error
+
+[33mcommit 66c78935c7888c17b4d98cb16441d2a80c6b387e[m
+Author: Bolaji Adewale <jamesadewale3@gmail.com>
+Date:   Tue Dec 19 18:35:32 2017 +0100
+
+    I added a style sheet using CSS
+
+[33mcommit 513815ce55542ca84a203216af2ff13a4035420e[m
+Author: Bolaji Adewale <jamesadewale3@gmail.com>
+Date:   Tue Dec 19 18:32:27 2017 +0100
+
+    I copied the JS to the js file
+
+[33mcommit 0f074708ac65fc60304f44d3e040039fb47ae9ab[m
+Author: Bolaji Adewale <jamesadewale3@gmail.com>
+Date:   Tue Dec 19 18:30:19 2017 +0100
+
+    I added a JS file for code optimisation

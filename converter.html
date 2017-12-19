@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Conversion Machine</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width", initial-scale=1>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-	<script type="text/javascript" src="Bootstrap/js/jquery-3.1.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="converter.css">
+	<script type="text/javascript" src="jquery/jquery-3.1.1.js"></script>
 	<script type="text/javascript" src="Bootstrap/js/bootstrap.js"></script>
 </head>
 <body style="background-color:grey;color:black;text-align:center;border:2px solid red;width:100%">
@@ -15,51 +16,27 @@
 <p>Minutes : <span id="min"></span></p>
 <p>SECONDS: <span id="sec"></span> </p>
 <p>MILLSECONDS: <span id="msec"></span></p>
+
 <h4>CONVERSIONS OF METERS</h4>
 <p>METERS :</p><input id="mete" oninput="meter()" type="text">
 <p>Centimeter :<span id="cent"></span></p>
 <p >Millimeter : <span id="mill"></span></p>
 <p >Kilometer : <span id="kilo"></span></p>
+
+
 <h4>CONVERSION OF YEARS</h4>
 <p>YEAR</p><input oninput="year()" id="yy" type="text" name="">
 <p>Months: <span id="mon"></span></p>
 <p>Weeks: <span id="wee"></span></p>
 <p>Days: <span id="days"></span></p>
+
 <h4>CONVERSION OF TEMPERATURE</h4>
 <p>Faherehit :<input oninput="frah()" id="hit" type="text" name=""></p>
 <p>Celcius :<span id="cel"></span></p>
 <p>Kelvin : <span id="kel"></span></p>
 <p>Degree :<span id="deg"></span></p>
 </form>
-<script type="text/javascript">
-function some(){
-	var a=document.getElementById("screen").value;
-	 var min=document.getElementById("min").innerHTML= parseInt(a)*60 + " minutes ";
-	 var sec=document.getElementById("sec").innerHTML=parseInt(a)*3600 + " seconds";
-	 var msec=document.getElementById("msec").innerHTML=parseInt(a)*6000 + " millseconds";
 
-}
-function meter()
-{
-	 var a = document.getElementById("mete").value;
-    document.getElementById("cent").innerHTML=parseInt(a)/100 + " Centimeter ";
-	 document.getElementById("mill").innerHTML=parseInt(a)/1000 + " Millimeter ";
-	 document.getElementById("kilo").innerHTML=parseInt(a)/10000 + " Kilometer ";
-}
-function year()
-{
-	var a = document.getElementById("yy").value;
-	document.getElementById("mon").innerHTML=parseInt(a)*12 + " months";
-	document.getElementById("wee").innerHTML=parseInt(a)*52 + " weeks";
-	document.getElementById("days").innerHTML=parseInt(a)*360 + " days";
-}
-function frah()
-{
-	var a=document.getElementById("hit").value;
-	document.getElementById("cel").innerHTML=0.556*(parseInt(a)-32) + " C";
-	document.getElementById("kel").innerHTML=0.556*(parseInt(a)-32)+273 + " K";
-	document.getElementById("deg").innerHTML=((parseInt(a)-32)/1.8)*9500;
-}
-</script>
+<script type="text/javascript" src="converter.js"></script>
 </body>
 </html>
